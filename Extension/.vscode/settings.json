@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "out": false // set this to true to hide the "out" folder with the compiled JS files
+    },
+    "search.exclude": {
+        "out": true // set this to false to include "out" folder in search results
+    },
+    "flocklive.flockBot": {
+        "APIToken": "xoxb-93332718866-jsnRb8jtKV5SJCI5fv7H3PHH",
+        "EndPoint": "http://40.76.73.60/flocklive",
+        "EndPointPoll": "http://40.76.73.60/flocklivepocpoll",
+        "Channel": "flocklive",
+        "Team": "Troy"
+    },
+    "typescript.tsdk": "./node_modules/typescript/lib" // we want to use the TS server from our node_modules folder to control its version
+}
