@@ -8,4 +8,4 @@
 6. Install all required packages `npm install`
 7. Run the app `npm start` - should look something like this
 
-![Might look something like this](../screenshots/flockbot_start.png)
+![Might look something like this](../screenshots/flockbot_start.PNG)
