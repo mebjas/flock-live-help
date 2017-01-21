@@ -18,7 +18,7 @@ app.listen(port, function() {
 
 var responses = {};
 var lastGuid = null;
-var botToken = "254fad0f-4f2e-4f5b-ad5a-4fb5ab136aa6";
+var botToken = ";
 /**
  * Endpoint to get the help request from some extension, with config information
  * Creates a WS with slack, post the message and wait for the user to respond.
