@@ -18,13 +18,8 @@ app.listen(port, function() {
 
 var responses = {};
 var lastGuid = null;
-var botToken = ";
-/**
- * Endpoint to get the help request from some extension, with config information
- * Creates a WS with slack, post the message and wait for the user to respond.
- * Once the user responds, add it to responses dictionery so that polling extension
- * can get back the information.
- */
+var botToken = "";
+
 app.post('/flocklive', function(req, res) {
     var guid = uuid.v1();
     lastGuid = guid;
